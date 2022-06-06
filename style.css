@@ -1,0 +1,394 @@
+/* border */
+/* #border {
+   border: 5px solid red;
+   border-radius: 10px;
+} */
+/* margin */
+/* body{
+    margin:0;
+ }
+ .margin{
+    height: 300px;
+    width: 300px;
+    background:red;
+    margin :0 auto
+ }
+  */
+  /* padding  */
+  /* .padding{
+      height:300px;
+      width:300px;
+      font-family: monospace;
+      font-size: 40px;
+      background: rgb(3, 3, 3);
+      color:rgb(219, 219, 189);
+
+      padding-top:20px;
+      padding-left:20px;
+      padding-right:20px;
+      padding-bottom: 30px;
+  }
+  .padding-2{
+    height:300px;
+    width:300px;
+    font-family: monospace;
+    font-size: 40px;
+    background: rgb(204, 21, 21);
+    margin-top: 20px;
+    padding:  20px 10px 20px 30px */
+
+  /* } */
+
+/* .outline{
+    
+    margin :50px;
+    border: 4px solid red;
+    outline-width: 5px;
+    outline-style: dashed;
+    outline-color: red;
+    outline-offset: 20px;
+    outline: 4px solid red;
+
+} */
+/* font */
+ /* .text{
+    margin: 50px;
+    text-align:justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(20, 17, 17);
+    text-transform: uppercase;
+    text-decoration: none;
+ } */
+/* h1{
+    font-family: serif;
+    font-weight: bold;
+}
+p{
+    font-family: serif;s
+    font-weight: 400;
+    font-style:normal;
+    font-variant:small-caps;
+} */
+/* a{
+    text-align:center;
+    color:red;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding:20px;
+    border-radius: 10px;
+}
+
+a:link{
+    text-decoration: none;
+    background: black;
+ 
+   
+}
+a:visited{
+    background: rgb(0, 0, 0);
+    color:rgb(216, 216, 204);
+}
+a:hover{
+    background: rgb(236, 236, 232);
+    transition: .5s;
+    color:black;
+}
+a:active{
+    background: rgb(139, 3, 3);
+    color:rgb(20, 20, 17);
+    
+} */
+/* table,th, td{
+    border: 4px solid rgb(0, 0, 0);
+}
+table{
+    width:100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+th,td{
+    padding:20px;
+  
+    
+   
+}
+th{
+    font-weight: bold;
+    font-size: 25px;
+} */
+/* h2{
+    text-align: center;
+    display: inline-block;
+    
+} */
+/* ul li{
+    font-size: 20px;
+    display: inline-block;
+    margin:20px;
+    background: red;
+    margin-top: 0;    
+} */
+/* .div-1{
+    font-weight: bold;
+    font-size: 15px;
+    border: 3px solid red;
+    background: black;
+    color:white;
+    width:400px;
+    margin-bottom: 20px;
+}
+
+.div-2{
+    font-weight: bold;
+    font-size: 15px;
+    border: 3px solid red;
+    background: black;
+    color:white;
+    max-width:400px;
+    margin-bottom: 20px;
+}
+ */
+ /* .div-1{
+     height: 400px;
+     width:700px;
+     background: rgb(20, 92, 2);
+    position: relative;
+    right:0;
+    left:0;
+    bottom:0;
+    top:0;
+    margin: auto;
+ }
+ .div-2{
+     height:200px;
+     width:200px;
+     background: red;
+     position: absolute;
+     top:0;
+     bottom:0;
+     left:0;
+     right:0;
+     margin: auto;
+     border-radius: 50%;
+ }
+ .div-3{
+     background: rgb(0, 0, 0);
+     padding: 5px;
+     border: 2px solid rgb(129, 108, 108);
+     width:400px;
+     color:white;
+     position: sticky;
+     top:0;
+ }
+ p{
+     padding-bottom: 1000px ;
+ }
+ */
+ /* .overflow{
+     height:300px;
+     width:250px;
+     border:3px solid red;
+     overflow:auto;/hidden/visible/scroll;
+
+ }
+ */
+
+
+
+    /* img{
+        height:200px;
+        float:right;
+    }
+    .clear-1{ 
+        clear: right;
+
+    }
+    .box{
+        height:200px;
+        background:#000;
+        width:25%;
+        float: left;
+        
+    }
+.box-1{
+    background-color: red;
+
+   }   
+.box-2{
+    background-color: yellow;
+       
+}   
+.box-3{
+    background: black;
+       
+}   
+.box-4{
+    background-color: burlywood;
+       
+}    */
+/* span.a{
+    height:100px;
+    width:100px;
+    background: rgb(211, 0, 0);
+    border: 3px solid rgb(0, 0, 0);;
+    display:inline;
+    color:white;
+}
+span.b{
+    height:100px;
+    width:100px;
+    background: rgb(211, 0, 0);
+    border: 3px solid rgb(0, 0, 0);;
+    display: inline-block;
+    color: white;
+}
+span.c{
+    height:100px;
+    width:100px;
+    background: rgb(211, 0, 0);
+    border: 3px solid rgb(0, 0, 0);;
+    display: block;
+    color:white;
+} */
+
+/* ul{
+    background-color: black;
+    text-align: right;
+}
+ul li{
+   display: inline-block;
+   padding :20px;
+   margin:0 10px;
+}
+
+ul li a{
+    text-decoration: none;
+    color:whitesmoke;
+    font-weight: bold;
+}
+ul li:hover {
+    background: aqua;
+    transition: 1s;
+  
+}
+ul li:hover a{
+    color: rgb(0, 0, 0);
+  
+}
+ */
+ /* .div ~ p{
+     color:red; 
+ } */
+/* p::first-line{
+    color:red;
+} */
+/* #img{
+    height:500px;
+    width:700px;
+    background: url('../img/messi.jpg') no-repeat center/cover;
+    overflow: hidden;
+   
+
+}
+.para{
+    text-align: center;
+    color: whitesmoke;
+    background-color: rgb(22, 17, 17);
+    padding:30px;
+    margin-top :10px;
+    opacity: .5;
+} */
+/* ul{
+    background: black;
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+    
+}
+ul li {
+    list-style-type: none;
+    float:left;
+    padding:15px;
+    margin: 10px;
+    
+}
+ul li a {
+    color:rgb(243, 243, 243);
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-top: 4px;
+    display:inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul li:hover a{
+    background: rgb(167, 167, 167);
+    */
+/* } */
+
+    
+
+
+
+/* .dropdown-content{
+    background: rgb(204, 9, 9);
+    color:rgb(240, 240, 240);
+
+}
+
+.dropdown-content a{
+    display:block;
+}
+.dropdown-content a:hover{
+    background: black;
+} */
+
+ul{
+    margin:0;
+    padding:0;
+    background: rgb(61, 0, 0);
+    overflow: hidden;
+}
+   
+ul li {
+  list-style-type: none;
+  float:left;
+  
+}
+
+ul li a{
+   text-decoration: none;
+   color:white;
+   font-weight: bold;
+   padding:12px 16px;
+   margin-right: 10px;
+   cursor: pointer;
+   display: inline-block;
+
+}
+ul li a:hover{
+    background:  rgb(0, 0, 0);
+    transition: 0.5s;
+}
+.dropdown-content{
+    background: rgb(51, 28, 28);
+    display: none;
+    position:absolute;
+}
+
+.dropdown-content a{
+    display: block;
+    color:rgb(243, 232, 232);
+}
+.dropdown-content a:hover{
+    background: rgb(0, 0, 0);
+    transition:0.5s;
+
+}
+.dropdown:hover .dropdown-content{
+    transition: 1s;
+    display: block;
+   
+}
