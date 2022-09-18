@@ -1,0 +1,32 @@
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.item {
+  width: 350px;
+  height: 200px;
+  margin: 20px;
+}
+.one {
+  background: yellowgreen;
+}
+.two {
+  background: lightgreen;
+}
+.three {
+  background: lightsalmon;
+}
+@media screen and (max-width: 1200px) {
+  .item {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 850px) {
+  .item {
+    width: 95%;
+  }
+}

@@ -1,0 +1,26 @@
+.container {
+  background: rgb(150, 181, 192) url("./img/ishpa.jpg") no-repeat center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 400px;
+}
+
+.item {
+  background-color: rgba(120, 153, 169, 0.4);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  height: 50px;
+  width: 300px;
+  display: flex;
+  transition: 0.8s;
+  justify-content: center;
+
+  font-weight: bold;
+  color: rgb(232, 230, 230);
+}
+.item:hover {
+  background: rgb(0, 63, 60);
+}

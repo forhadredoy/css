@@ -1,0 +1,84 @@
+body {
+  background: rgb(79, 79, 79);
+}
+
+.conatainer {
+  height: auto;
+  width: 360px;
+  margin: 0 auto;
+  margin-top: 60px;
+  background: rgb(7, 59, 44);
+  padding: 60px 10px;
+  margin-bottom: 30px;
+  transition: 0.8s;
+  cursor: pointer;
+}
+.item {
+  display: flex;
+  justify-content: center;
+}
+.item img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+
+  border: 3px solid rgb(42, 50, 75);
+  outline: none;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.8s;
+}
+.text {
+  margin-top: 20px;
+  align-items: center;
+  text-align: center;
+  color: rgb(187, 187, 187);
+  font-family: "Assistant";
+  font-size: 17px;
+}
+.btn {
+  height: auto;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+.btn button {
+  height: 6vh;
+  width: 28%;
+  padding: 5px;
+  margin: 10px;
+  cursor: pointer;
+  background: rgb(24, 44, 36);
+  border: none;
+  color: aliceblue;
+  font-size: 15px;
+  font-family: "Assistant";
+  border-radius: 5px;
+  transition: 0.8s;
+}
+
+.font {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.font i {
+  padding: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+.btn button:hover {
+  background: black;
+}
+.conatainer:hover {
+  background: rgb(0, 74, 78);
+  transform: scale(1.04);
+}
+.font i:hover {
+  color: rgb(2, 154, 9);
+}
+.item img:hover {
+  border: 5px solid rgb(19, 23, 23);
+}

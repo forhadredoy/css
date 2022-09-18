@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+.card {
+  height: 250px;
+  width: 300px;
+  box-sizing: border-box;
+  padding: 20px;
+  margin: 10px;
+}
+.one {
+  background: red;
+}
+.two {
+  background: yellowgreen;
+}
+.three {
+  background: burlywood;
+}
+.four {
+  background: blueviolet;
+}
+@media screen and (max-width: 1200px) {
+  .card {
+    width: 30%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .conatiner {
+    justify-content: space-around;
+  }
+  .card {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .conatiner {
+    justify-content: space-around;
+  }
+  .card {
+    width: 98%;
+  }
+}

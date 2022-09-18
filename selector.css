@@ -1,0 +1,114 @@
+/* /* .container {
+  width: 100%;
+  display: flex;
+}
+.item1.item2 {
+  height: 40px;
+  width: 40px;
+  background: yellow;
+  color: green;
+}
+.container .item3 {
+  height: 40px;
+  width: 40px;
+  background: rgb(186, 186, 169);
+  color: rgb(0, 0, 0);
+}
+div.main {
+  background: red;
+}
+div,
+h1 {
+  background: gray;
+  margin-top: 10px;
+}
+div > p {
+  background: lime;
+}
+
+h2 ~ h3 {
+  background: red;
+}
+a[target="_blank"] {
+  color: rgb(38, 116, 73);
+}
+a:not([target="_blank"]) {
+  color: purple;
+}
+.hei p::after {
+  content: "#";
+  background: gray;
+  transition: 0.8s;
+}
+.hei p:hover::after {
+  background: red;
+}
+img {
+  position: absolute;
+
+  clip-path: circle(40%);
+} */
+/* .container {
+  font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+  font-stretch: expanded;
+  font-size-adjust: 0.68;
+  font-style: oblique;
+  font-variant: small-caps;
+}
+.paragraph {
+  hyphens: none;
+}
+img {
+  height: 300px;
+  width: 300px;
+  image-rendering: pixelated;
+} */
+/* .mask {
+  -webkit-mask-image: url(./img/messi.jpg);
+  mask-image: url(./img/messi.jpg);
+  -webkit-mask-size: 70%;
+  mask-size: 70%;
+  mask-position: center;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+} */
+/* .mask {
+  width: 100%;
+  height: 100vh;
+  background: red;
+}
+img {
+  mix-blend-mode: darken;
+} */
+/* h2 {
+  font-size: 20px;
+  font-family: "Assistant";
+  background: red;
+}
+@media print {
+  h2 {
+    page-break-before: always;
+    page-break-inside: avoid;
+  }
+@media print {
+  p {
+    widows: 3;
+  }
+}
+
+
+@media print {
+  p {
+    widows: 3;
+  }
+}
+@media print {
+  p {
+    widows: 3;
+  }
+} */
+@media print {
+  p {
+    widows: 3;
+  }
+}

@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.menu-area a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background: black;
+  height: 50px;
+  font-family: "Assistant";
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.menu-area a:hover {
+  background: rgb(58, 0, 0);
+  color: white;
+}
+.menu-area ul {
+  list-style: none;
+  display: flex;
+}
+.menu-area ul li {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+.menu-area li:hover .dropdown-1 > li {
+  top: 0;
+  display: block;
+}
+.dropdown-1 li {
+  display: none;
+  position: relative;
+}
+.dropdown-1 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+.dropdown-1 li:hover .dropdown-2 li {
+  display: block;
+}
+.dropdown-2 ul li {
+  display: none;
+}
+.dropdown-2 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 200px;
+}

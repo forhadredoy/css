@@ -1,0 +1,8 @@
+.containers {
+  width: 100%;
+  height: 300px;
+  display: flex;
+}
+#myBlueDiv {
+  align-self: center;
+}

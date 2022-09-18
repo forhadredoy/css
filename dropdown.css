@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "assistant";
+  font-size: 16px;
+}
+.nav {
+  padding: 0 15px;
+  background: rgb(151, 60, 113);
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.menu,
+.submenu {
+  list-style-type: none;
+}
+.logo {
+  font-size: 20px;
+  padding: 7.5px 10px 7.5px 0;
+}
+.item {
+  padding: 10px;
+}
+.item,
+.button {
+  padding: 9px 5px;
+}
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu ul li a {
+  display: block;
+  padding: 15px 5px;
+}
+.menu li .subitem a {
+  padding: 15px;
+}
+.toggle {
+  font-size: 20px;
+  order: 1;
+}
+.item .button {
+  order: 2;
+}
+.item {
+  order: 3;
+  width: 100%;
+  text-align: center;
+  display: none;
+}
+.active,
+.item {
+  display: block;
+}
+.button .seconday {
+  border-bottom: 1px #444 solid;
+}

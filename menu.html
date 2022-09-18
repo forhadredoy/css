@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="menu.css" />
+
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-6.2.0-web/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./fontawesome-free-6.2.0-web/js/all.min.js" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Assistant"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container" id="contanet">
+      <div class="item">
+        <input type="input" />
+        <nav class="item">
+          <ul class="unorder">
+            <li class="navbar-toggle">
+              <i class="fa fa-bars"></i>
+            </li>
+
+            <li class="nav">
+              <a href="#">Home </a>
+            </li>
+
+            <li class="nav">
+              <a href="#">About </a>
+            </li>
+
+            <li class="nav">
+              <a href="#">Education </a>
+            </li>
+
+            <li class="nav">
+              <a href="#">Job </a>
+            </li>
+
+            <li class="nav">
+              <a href="#">And </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <script>
+      const toggleButton = document.getElementsByClassName("navbar-toggle")[0];
+      const nav = document.getElementsByClassName("nav");
+      toggleButton.addEventListener("click", () => {
+        for (var i = 0; i < nav.length; i++) nav[i].classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>

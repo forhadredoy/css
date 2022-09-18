@@ -1,0 +1,13 @@
+input[type="checkbox"] {
+  accent-color: rgb(43, 43, 0);
+}
+input[type="radio"] {
+  accent-color: yellow;
+}
+input[type="range"] {
+  accent-color: green;
+}
+progress {
+  accent-color: rgb(107, 9, 69);
+  padding: 3px 20px;
+}

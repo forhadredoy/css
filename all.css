@@ -1,0 +1,15 @@
+.container p {
+  background-color: yellow;
+  color: blue;
+  all: inherit;
+}
+.container1 p {
+  background-color: yellow;
+  color: blue;
+  all: initial;
+}
+.container2 p {
+  background-color: yellow;
+  color: blue;
+  all: unset;
+}
